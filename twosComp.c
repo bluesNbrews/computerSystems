@@ -1,6 +1,7 @@
 //Author: Steven Williams
 //CSCI 6011
-//Write a C program to enter a binary number from the user and to //find 2's complement of the binary number.
+//Write a C program to enter a binary number from the user and to 
+//find 2's complement of the binary number.
 //First step is to transform x into a bit vector in the form of
 //[0..01..1], find two's complement of a binary string.
 
