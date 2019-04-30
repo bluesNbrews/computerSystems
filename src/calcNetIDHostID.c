@@ -10,23 +10,11 @@
 //Class E    240  to  254
 
 #include<stdio.h>
-#include<stdlib.h>
-#include<string.h>
-
-void append(char* s, char c){
-    int len = strlen(s);
-    s[len] = c;
-    s[len+1] = '\0';
-    printf("%s", s);
-}
 
 int main(){
 	
-	//Variables for loop, each octet of the IP address, and the first octet of the
-	//IP address 
+	//Variables for each octet of the IP address, and the IP address class
 	unsigned char a,b,c,d;
-	//int A;
-	char zero = '0';
 	char networkClass; 
 
 
@@ -34,31 +22,34 @@ int main(){
 	printf("Enter an IP address (ex: 253.1.0.224): \n");
 	scanf("%hhu.%hhu.%hhu.%hhu", &a, &b, &c, &d);	
 	
-	//Convert the first octet of the IP address as an unsigned char to char
-	//A = (char)a;
-	
-	//Find the class of IP address based on the first octet
+	//Find the class of IP address based on the first octet. Modify and print Network ID and Host ID based on the IP address class.
 	switch(a) {
 		case  1 ... 126:
 			networkClass = 'A';
+			printf("Your IP address is Class %c.\n", networkClass);
+			printf("The Network ID is %d.%d.%d and Host ID is %d. ", a, b, c, d);
 			break;
 		case  128 ... 191:
 			networkClass = 'B';
+			printf("Your IP address is Class %c.\n", networkClass);
+			printf("The Network ID is %d.%d and Host ID is %d.%d. ", a, b, c, d);
 			break;
 		case  192 ... 223:
 			networkClass = 'C';
+			printf("Your IP address is Class %c.\n", networkClass);
+			printf("The Network ID is %d.%d.%d and Host ID is %d. ", a, b, c, d);
 			break;
 		case  224 ... 239:
 			networkClass = 'D';
+			printf("Your IP address is Class %c. This class is reserved for multicast purposes only.\n", networkClass);
 			break;
 		case  240 ... 254:
 			networkClass = 'E';
+			printf("Your IP address is Class %c. This class is reserved for experimental purposes only.\n", networkClass);
 			break;
 		default:
 			printf("Out of range!\n");
 	}
-
-	printf("Your IP address is Class %c.\n", networkClass);
 
 	return 0;
 
