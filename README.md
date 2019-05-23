@@ -1,3 +1,3 @@
 # computerSystems
 
-# Sample work problems for CSCI 6011 @ GWU
+# Sample work from Computer Systems (CSCI 6011) @ George Washington University
