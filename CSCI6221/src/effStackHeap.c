@@ -38,14 +38,22 @@ int main(){
 	
 	//Measure and print time to allocate an array on the stack
 	clock_t start1 = clock();
-	createArrayStack();
+	
+	for(int i = 0; i < 150000; i++){
+		createArrayStack();
+	}
+
 	clock_t end1 = clock();
 	double totalTime1 = ((double) (end1 - start1) / CLOCKS_PER_SEC);
 	printf("Allocate int array[100] on the stack takes: %f\n", totalTime1);
 
 	//Measure and print time to allocate an array on the heap
 	clock_t start2 = clock();
-	createArrayHeap();
+	
+	for(int i = 0; i < 150000; i++){
+		createArrayHeap();
+	}
+	
 	clock_t end2 = clock();
 	double totalTime2 = ((double) (end2 - start2) / CLOCKS_PER_SEC);
 	printf("Allocate int array[100] on the heap takes: %f\n", totalTime2);
