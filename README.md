@@ -1,3 +1,3 @@
 # computerSystems
 
-# Sample work from Computer Systems (CSCI 6011) and Computer Architecture (6461) @ George Washington University
+# Sample work from Computer Systems (6011), Computer Architecture (6461) and Software Paradigms (6221) @ George Washington University (using C/Assembly/CUDA/C++)
