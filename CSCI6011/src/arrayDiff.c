@@ -1,64 +1,47 @@
+/* Author: Steven Williams
+** Simple program to find the largest number for each element of two arrays. 
+** For example, array1[0] is compared to array2[0] to find the larger number. 
+** Runs in linear time - O(n)
+*/
+
 #include<stdio.h>
 #include<stdlib.h>
 
 double* arrayFunc(double *arr1, double *arr2){
-	double temp[5];
-	double *arr3;
-	int sum = 0;
-	int k = 0;
 
-	for(int i = 0; i < 5; i++){
-		for(int j = 0; j < 5; j++){
-			if(arr1[i] == arr2[j]){
-				j = 5;
-			}
-			if(arr1[i] != arr2[j] && j == 4){
-				temp[i] = arr1[i];
-				sum ++;
-			}
-		}
+	//Allocate memory for the larger number array
+	double *arr3 = (double *)malloc(2 * sizeof(double));
+
+	//Compare each element of array 1 to array 2 and store the larger number in array 3
+	for(int i = 0; i < 2; i++){
+			if(arr1[i] < arr2[i])
+				arr3[i] = arr2[i];	
 	}
 
-	arr3 = (double *)malloc(sum * sizeof(double));
-
-	for(int i = 0; i < 5; i++){
-		if((int)temp[i] > 0){
-			arr3[k] = temp[i];
-			k++;
-		}
-	}
-
-	for(int i = 0; i < 5; i++){
-		printf("Array 1: %.2f\n", arr1[i]);
-		printf("Array 2: %.2f\n", arr2[i]);
-	}
-
-	for(int i = 0; i < 5; i++){
-		printf("Array Temp: %.2f\n", temp[i]);
-	}
-
-	printf("%d\n", sum);
-
+	//Return new array with larger number
 	return arr3;
+
 }
 
 int main(void){
 	
-	
-	int size = 5;
-	double *arr1 = (double *)malloc(size * sizeof(double));
-	double *arr2 = (double *)malloc(size * sizeof(double));
-	double *arr3;
+	//Allocate memory for array 1, array 2 and array 3 (larger number)
+	double *arr1 = (double *)malloc(2 * sizeof(double));
+	double *arr2 = (double *)malloc(2 * sizeof(double));
+	double *arrLargerNumber;
 
-	printf("Enter a pair of numbers: \n");
-	for(int i = 0; i < 5; i++){
+	//Populate array 1 and array 2 from user input
+	printf("Enter two pairs of numbers (e.g. 23 2 2 4): \n");
+	for(int i = 0; i < 2; i++){
 		scanf("%lf%lf", &arr1[i], &arr2[i]);
 	}
 
-	arr3 = arrayFunc(arr1,arr2);
+	//Compare two arrays and return array with larger numbers
+	arrLargerNumber = arrayFunc(arr1,arr2);
 
-	for(int i = 0; i < 5; i++){
-		printf("New Array: %.2f\n", arr3[i]);
+	//Print array with larger numbers
+	for(int i = 0; i < 2; i++){
+		printf("New Array: %.2f\n", arrLargerNumber[i]);
 	}
 
 	return 0;
