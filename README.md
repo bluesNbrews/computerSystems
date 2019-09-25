@@ -1,6 +1,6 @@
-- [CSCI 6011 (Computer Systems - simple C programs)](#CSCI 6011 (Computer Systems - simple C programs)
-  * [arrayDiff.c](#arrayDiff.c)
-  * [binomialCoeff.c](#binomialCoeff.c)
+- [CSCI 6011 (Computer Systems - simple C programs)](#CSCI 6011)
+  * [arrayDiff.c](#arrayDiff)
+  * [binomialCoeff.c](#binomialCoeff)
   
 # Sample work @ George Washington University (using C/Assembly/CUDA/C++/GO)
 * Computer Systems (6011)
