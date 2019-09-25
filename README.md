@@ -1,4 +1,6 @@
-- ['CSCI 6011 (Computer Systems - simple C programs)'](#CSCI 6011)
+# Table of Contents
+
+- [CSCI 6011 (Computer Systems - simple C programs)](#CSCI 6011)
   * [arrayDiff.c](#arrayDiff)
   * [binomialCoeff.c](#binomialCoeff)
   
@@ -7,8 +9,6 @@
   Computer Architecture (6461)
   Software Paradigms (6221)
   Design & Analysis of Algorithms (6212) 
-
-<!-- toc -->
 
 ## CSCI 6011 (Computer Systems - simple C programs)
 
