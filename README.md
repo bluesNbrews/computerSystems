@@ -1,12 +1,12 @@
-- [CSCI 6011 (Computer Systems - simple C programs)](#computerSystems)
-  * [arrayDiff.c](#arrayDiff)
-  * [binomialCoeff.c](#binomialCoeff)
+- [CSCI 6011 (Computer Systems - simple C programs)](#CSCI 6011 (Computer Systems - simple C programs)
+  * [arrayDiff.c](#arrayDiff.c)
+  * [binomialCoeff.c](#binomialCoeff.c)
   
-# Computer Systems (6011)
-# Computer Architecture (6461)
-# Software Paradigms (6221)
-# Design & Analysis of Algorithms (6212) 
-# @ George Washington University (using C/Assembly/CUDA/C++/GO)
+# Sample work @ George Washington University (using C/Assembly/CUDA/C++/GO)
+> Computer Systems (6011)
+> Computer Architecture (6461)
+> Software Paradigms (6221)
+> Design & Analysis of Algorithms (6212) 
 
 ## CSCI 6011 (Computer Systems - simple C programs)
 
@@ -20,4 +20,4 @@ Implement the binomial coeffecient formula in C (for nonnegative integers). Runs
 
 	|n|	      n!    
 	| |	= ----------
-	|k|    k!(n-k)!
+	|k|        k!(n-k)!
