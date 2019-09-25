@@ -6,9 +6,9 @@
   
 # Sample work @ George Washington University (using C/Assembly/CUDA/C++/GO)
 > Computer Systems (6011)
-  Computer Architecture (6461)
-  Software Paradigms (6221)
-  Design & Analysis of Algorithms (6212) 
+> Computer Architecture (6461)
+> Software Paradigms (6221)
+> Design & Analysis of Algorithms (6212) 
 
 ## CSCI 6011 (Computer Systems - simple C programs)
 
