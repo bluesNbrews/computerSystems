@@ -1,12 +1,12 @@
-- [CSCI 6011 (Computer Systems - simple C programs)](#CSCI 6011)
+- ['CSCI 6011 (Computer Systems - simple C programs)'](#CSCI 6011)
   * [arrayDiff.c](#arrayDiff)
   * [binomialCoeff.c](#binomialCoeff)
   
 # Sample work @ George Washington University (using C/Assembly/CUDA/C++/GO)
-* Computer Systems (6011)
-* Computer Architecture (6461)
-* Software Paradigms (6221)
-* Design & Analysis of Algorithms (6212) 
+> Computer Systems (6011)
+  Computer Architecture (6461)
+  Software Paradigms (6221)
+  Design & Analysis of Algorithms (6212) 
 
 <!-- toc -->
 
