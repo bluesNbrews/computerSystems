@@ -1,9 +1,9 @@
 # Table of Contents
 
-- [CSCI 6011(Computer Systems - simple C programs)](#CSCI6011)
-  * [arrayDiff.c](#arrayDiff)
-  * [binomialCoeff.c](#binomialCoeff)
-  * [binRepInt.c](#binRepInt)
+- [CSCI 6011(Computer Systems - simple C programs)](#csci-6011-computer-systems---simple-c-programs)
+  * [arrayDiff.c](#arraydiffc)
+  * [binomialCoeff.c](#binomialcoeffc)
+  * [binRepInt.c](#binrepintc)
   
 # Sample work @ George Washington University (using C/Assembly/CUDA/C++/GO)
   * Computer Systems (6011)
