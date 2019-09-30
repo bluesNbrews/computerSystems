@@ -1,5 +1,4 @@
 //Author: Steven Williams
-//CSCI 6011
 
 /*
 Write source code in C to convert a binary number to hexadecimal number.
@@ -34,15 +33,11 @@ void byteSum(char binNum[], char hexNum[])
 	//If the next value is 1, then add 4 (2^2). There are two if statements to account for the two sets of 4 bits (1 byte, the binary number). 
 	for(int i = 0; i < 8; i++){
 		if(binNum[i] == '1' && i < 4){
-			sumNibble1 += pow(2, counter1);
-			//printf("%s%d\n", "This is the first nibble: ", sumNibble1);	
-			
+			sumNibble1 += pow(2, counter1);	
 		}	
 		counter1--;	
 		if(binNum[i] == '1' && i >= 4){
 			sumNibble2 += pow(2, counter2);
-			//printf("%s%d\n", "This is the second nibble: ", sumNibble2);
-			
 		}
 		counter2--;
 	}
@@ -78,11 +73,13 @@ int main()
 
 	//Showing the binary number converted to the hex values.
 	printf("%s", "Your binary number of ");
+	
 	for(int i = 0; i < sizeof(binNum); i++)
 	{
 		printf("%c", binNum[i]);
 	}
 	printf("%s", " equals to ");
+
 	for(int i = 0; i < sizeof(hexNum); i++)
 	{
 		printf("%c", hexNum[i]);
