@@ -4,6 +4,7 @@
   * [arrayDiff.c](#arraydiffc)
   * [binomialCoeff.c](#binomialcoeffc)
   * [binRepInt.c](#binrepintc)
+  * [binToHex.c](#bintohexc)
   
 # Sample work @ George Washington University (using C/Assembly/CUDA/C++/GO)
   * Computer Systems (6011)
@@ -28,3 +29,7 @@ Implement the binomial coeffecient formula in C (for nonnegative integers). Runs
 ### binRepInt.c
 
 Count number of 1's in the binary representation of an integer. Loop through all bits in an integer, find if a bit is set and if it has incremented the set bit count.
+
+### binToHex.c
+
+Convert a binary number to a hexadecimal number.
