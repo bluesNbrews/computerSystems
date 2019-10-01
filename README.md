@@ -5,6 +5,7 @@
   * [binomialCoeff.c](#binomialcoeffc)
   * [binRepInt.c](#binrepintc)
   * [binToHex.c](#bintohexc)
+  * [calcNetIDHostID.c](#calcnetidhostidc)
   
 # Sample work @ George Washington University (using C/Assembly/CUDA/C++/GO)
   * Computer Systems (6011)
@@ -33,3 +34,13 @@ Count number of 1's in the binary representation of an integer. Loop through all
 ### binToHex.c
 
 Convert a binary number to a hexadecimal number.
+
+### calcNetIDHostID.c
+
+Show the class, netword ID, and host ID of a given IPv4 address.
+
+Class A    1    to  126 
+Class B    128  to  191
+Class C    192  to  223
+Class D    224  to  239
+Class E    240  to  254
