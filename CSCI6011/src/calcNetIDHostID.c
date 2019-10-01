@@ -1,6 +1,6 @@
 //Author: Steven Williams
 
-//Write a program to show the class of a given IPv4 address, netword ID, and host ID.
+//Show the class, network ID, and host ID of a given IPv4 address.
 
 //Class A    1    to  126 
 //Class B    128  to  191
