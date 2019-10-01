@@ -37,7 +37,7 @@ Convert a binary number to a hexadecimal number.
 
 ### calcNetIDHostID.c
 
-Show the class, netword ID, and host ID of a given IPv4 address.
+Show the class, network ID, and host ID of a given IPv4 address.
 
 * Class A    1    to  126 
 * Class B    128  to  191
