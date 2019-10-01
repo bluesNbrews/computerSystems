@@ -1,6 +1,5 @@
 //Author: Steven Williams
-//CSCI 6011
-//Practice Set 6 Problem 1
+
 //Write a program to show the class of a given IPv4 address, netword ID, and host ID.
 
 //Class A    1    to  126 
