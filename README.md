@@ -39,8 +39,8 @@ Convert a binary number to a hexadecimal number.
 
 Show the class, netword ID, and host ID of a given IPv4 address.
 
-Class A    1    to  126 
-Class B    128  to  191
-Class C    192  to  223
-Class D    224  to  239
-Class E    240  to  254
+* Class A    1    to  126 
+* Class B    128  to  191
+* Class C    192  to  223
+* Class D    224  to  239
+* Class E    240  to  254
