@@ -1,6 +1,5 @@
 //Steven Williams
-//CSCI 6011 
-//C program to find sum of array elements using Dynamic Memory Allocation.
+//C program to find sum of array elements using dynamic memory allocation.
 
 #include<stdio.h>
 #include<stdlib.h>
