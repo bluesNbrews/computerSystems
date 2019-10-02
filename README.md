@@ -6,6 +6,7 @@
   * [binRepInt.c](#binrepintc)
   * [binToHex.c](#bintohexc)
   * [calcNetIDHostID.c](#calcnetidhostidc)
+  * [dynamicMemAllocation.c](#dynamicmemallocationc)
   
 # Sample work @ George Washington University (using C/Assembly/CUDA/C++/GO)
   * Computer Systems (6011)
@@ -37,10 +38,14 @@ Convert a binary number to a hexadecimal number.
 
 ### calcNetIDHostID.c
 
-Show the class, network ID, and host ID of a given IPv4 address.
+Show the class, network ID, and host ID of a given IPv4 address. The class is based on the first octet as follows:
 
 * Class A    1    to  126 
 * Class B    128  to  191
 * Class C    192  to  223
 * Class D    224  to  239
 * Class E    240  to  254
+
+### dynamicMemAllocation.c
+
+Find the sum of array elements. The array elements are populated from user input using dynamic memory allocation.
