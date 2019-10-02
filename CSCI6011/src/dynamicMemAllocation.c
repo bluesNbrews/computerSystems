@@ -1,5 +1,5 @@
 //Steven Williams
-//C program to find sum of array elements using dynamic memory allocation.
+//C program to find the sum of array elements. The array elements are populated from user input using dynamic memory allocation.
 
 #include<stdio.h>
 #include<stdlib.h>
