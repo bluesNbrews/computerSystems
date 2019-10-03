@@ -7,6 +7,7 @@
   * [binToHex.c](#bintohexc)
   * [calcNetIDHostID.c](#calcnetidhostidc)
   * [dynamicMemAllocation.c](#dynamicmemallocationc)
+  * [dynamicMemReAllocation.c](#dynamicmemreallocationc)
   
 # Sample work @ George Washington University (using C/Assembly/CUDA/C++/GO)
   * Computer Systems (6011)
@@ -49,3 +50,7 @@ Show the class, network ID, and host ID of a given IPv4 address. The class is ba
 ### dynamicMemAllocation.c
 
 Find the sum of array elements. The array elements are populated from user input using dynamic memory allocation.
+
+### dynamicMemReAllocation.c
+
+Dynamically allocate memory for an array and populate with values. Change the size of the array and dynamically reallocate memory for new array aize and populate with values.
