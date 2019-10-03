@@ -1,6 +1,7 @@
 //Author: Steven Williams
-//CSCI 6011
-//Practice set 4, Problem 1
+//Dynamically allocate memory for an array. 
+//Change the size of the array and dynamically reallocate memory for new array aize and values.
+
 #include<stdio.h>
 #include<stdlib.h>
 
