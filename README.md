@@ -8,6 +8,7 @@
   * [calcNetIDHostID.c](#calcnetidhostidc)
   * [dynamicMemAllocation.c](#dynamicmemallocationc)
   * [dynamicMemReAllocation.c](#dynamicmemreallocationc)
+  * [floatToBin.c](#floattobinc)
   
 # Sample work @ George Washington University (using C/Assembly/CUDA/C++/GO)
   * Computer Systems (6011)
@@ -54,3 +55,7 @@ Find the sum of array elements. The array elements are populated from user input
 ### dynamicMemReAllocation.c
 
 Dynamically allocate memory for an array and populate with values. Change the size of the array and dynamically reallocate memory for new array aize and populate with values.
+
+### floatToBin.c
+
+Convert a binary number to a floating point number.
