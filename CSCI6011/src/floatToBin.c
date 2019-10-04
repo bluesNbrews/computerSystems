@@ -1,5 +1,5 @@
 //Author: Steven Williams
-//Write source code to convert a binary number to a floating point number.
+//Write source code to convert a floating point number to a binary number.
 
 #include<stdio.h>
 
