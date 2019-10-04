@@ -58,4 +58,4 @@ Dynamically allocate memory for an array and populate with values. Change the si
 
 ### floatToBin.c
 
-Convert a binary number to a floating point number.
+Convert a floating point number to a binary number.
