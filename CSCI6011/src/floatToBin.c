@@ -1,14 +1,13 @@
 //Author: Steven Williams
-//CSCI 6011
-//Write source code to binary represent a floating point number.
+//Write source code to convert a binary number to a floating point number.
 
 #include<stdio.h>
 
+//Change to binary with bitwise operation on floating point portion (mantissa or exponent) 
 void binary(int n, int i)
 {
-	printf("This is the binary function.");
     int k;
-    printf(" The parameters of n are: %d and the size is: %d\n", n, i);
+  
     for (i--; i >= 0; i--)
     {
     	k = n >> i;
@@ -19,6 +18,7 @@ void binary(int n, int i)
     }
 }
 
+//Breakup the floating point number to mantissa, exponent, and sign.
 typedef union
 {
 	float f;
@@ -30,24 +30,24 @@ typedef union
     } field;
 } myfloat;
 
+//COmment out print statements that help show the breakdown of the floating point number.
 int main()
 {
     myfloat var;
 
-    printf("myfloat var is currently: %d%d%d\n", var.field.sign, var.field.exponent, var.field.mantissa);
-    
     printf("Enter any float number: ");
     scanf("%f", &var.f);
 
-    printf("myfloat var is now: %d%d%d\n", var.field.sign, var.field.exponent, var.field.mantissa);
-    
-    printf("The 'sign' field of the float number is: %d \n", var.field.sign);
-    printf("The 'exponent' field of the float number is: %d \n", var.field.exponent);
-    printf("The 'mantissa' field of the float number is: %d \n", var.field.mantissa);
+    //printf("The 'sign' field of the float number is: %d \n", var.field.sign);
+    //printf("The 'exponent' field of the float number is: %d \n", var.field.exponent);
+    //printf("The 'mantissa' field of the float number is: %d \n", var.field.mantissa);
 
+    //printf("The exponent is: ");
+    printf("The binary representation of %f is: ", var.f);
     binary(var.field.exponent, 8);
-    printf(" \n");
+    //printf(" \n");
     
+    //printf("The mantissa is: ");
     binary(var.field.mantissa, 23);
     printf("\n");
     
