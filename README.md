@@ -9,6 +9,7 @@
   * [dynamicMemAllocation.c](#dynamicmemallocationc)
   * [dynamicMemReAllocation.c](#dynamicmemreallocationc)
   * [floatToBin.c](#floattobinc)
+  * [ipAddr.c](#ipaddrc)
   
 # Sample work @ George Washington University (using C/Assembly/CUDA/C++/GO)
   * Computer Systems (6011)
@@ -59,3 +60,7 @@ Dynamically allocate memory for an array and populate with values. Change the si
 ### floatToBin.c
 
 Convert a floating point number to a binary number.
+
+### ipAddr.c
+
+Show the class based on IP address provided by the user. Similar to calcNetIDHostID.c.
