@@ -1,5 +1,4 @@
 //Author: Steven Williams
-//CSCI 6011
 //Each one of our computers is connected to a network with an identifier
 //to recognize other computer addresses that is known as Internet Protocol (IP)
 //address. An IPv4 has 4 octets having decimal value between 0-255 and depend
@@ -20,17 +19,10 @@ int main(){
 	//IP address 
 	int i;
 	unsigned char a,b,c,d;
-	int A;
 
 	//Get IP Address from the user
 	printf("Enter an IP address: \n");
 	scanf("%hhu.%hhu.%hhu.%hhu", &a, &b, &c, &d);
-	
-	//printf("%hhu.%hhu.%hhu.%hhu\n", a, b, c, d);
-	
-	//Convert the first octet of the IP address as an unsigned char to char
-	A = (int)a;
-	//printf("%d\n", A);
 	
 	//Find the class of IP address based on the first octet
 	switch(a) {
