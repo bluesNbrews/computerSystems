@@ -1,6 +1,6 @@
 //Author: Steven Williams
-//CSCI 6011
-//In class problem set 3 (linked list using structures)
+// Create a linked list using structures and memory allocation. 
+// Robust functionality includes find (O(n) time), print (O(n) time), insert at the head of the list (O(1) time), insert at a specified position in the list (O(1) time), delete a specified element (O(1) time), and modify values.
 
 #include<stdio.h>
 #include<stdlib.h>
