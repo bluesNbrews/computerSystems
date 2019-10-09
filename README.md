@@ -10,6 +10,7 @@
   * [dynamicMemReAllocation.c](#dynamicmemreallocationc)
   * [floatToBin.c](#floattobinc)
   * [ipAddr.c](#ipaddrc)
+  * [linkedList.c](#linkedlistc)
   * [stringReverse.c](#stringreversec)
   
 # Sample work @ George Washington University (using C/Assembly/CUDA/C++/GO)
@@ -66,6 +67,13 @@ Convert a floating point number to a binary number.
 
 Show the class based on IP address provided by the user. Similar to calcNetIDHostID.c.
 
+### linkedList.c
+
+Create a linked list using structures and memory allocation. Robust functionality includes find (O(n) time), print (O(n) time), insert at the head of the list (O(1) time), insert at a specified position in the list (O(1) time), delete a specified element (O(1) time), and modify values.
+
 ### stringReverse.c
 
 Write a program to reverse the order of a string.
+
+
+
