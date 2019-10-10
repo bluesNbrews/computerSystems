@@ -11,7 +11,7 @@
   * [floatToBin.c](#floattobinc)
   * [ipAddr.c](#ipaddrc)
   * [linkedList.c](#linkedlistc)
-  * [mult64bitX86_32.c](#mult64bitx8632c)
+  * [mult64bitX86_32.c](#mult64bitx86_32c)
   * [stringReverse.c](#stringreversec)
   
 # Sample work @ George Washington University (using C/Assembly/CUDA/C++/GO)
