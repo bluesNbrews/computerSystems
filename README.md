@@ -12,6 +12,7 @@
   * [ipAddr.c](#ipaddrc)
   * [linkedList.c](#linkedlistc)
   * [mult64bitX86_32.c](#mult64bitx86_32c)
+  * [mult64bitX86_32.s](#mult64bitx86_32s)
   * [stringReverse.c](#stringreversec)
   
 # Sample work @ George Washington University (using C/Assembly/CUDA/C++/GO)
@@ -75,6 +76,10 @@ Create a linked list using structures and memory allocation. Robust functionalit
 ### mult64bitX86_32.c
 
 Multiply two long long data types. The goal is to see the assembly code for this simple operation. 
+
+### mult64bitX86_32.s
+
+Assembly code for mult64bitX86_32.c. This code was generating using the GNU Compiler Collection (GCC).
 
 ### stringReverse.c
 
