@@ -1,6 +1,4 @@
 //Author: Steven Williams
-//CSCI 6011
-//Final Exam Problem 2
 //Create a program that takes two command line arguments that corresponds to the dimensions
 //(rows and columns) of a 2D array of doubles. Allocate memory to create the array and assign 
 //random values to its elements so that the sum of the elements in each row is equal to 1.
@@ -38,7 +36,9 @@ int main(){
 
 	//Generate random values for each array element such that each row has a sum of 1.0
 	for(i = 0; i < x; i++){
+		
 		for(j = 0; j < y; j++){
+			
 			//Generate random number less than 1.0 and assign to array element
 			int num = (rand() % (upper - lower + 1)) + lower;
 	    	double num2 = (double)num / 1000;
@@ -50,10 +50,12 @@ int main(){
 
 			//For the last element in the row, add the remaining value (if necessary) to make row total 1.0
 			if(j+1==y){
+				
 				if(sum != 1.0){
 					diff = 1.0 - sum;
 					*(myArray + i * y + j) += diff;
 				}
+				
 				//Row over, reset the upper limit for random number generation and running total for the row
 				upper = 1000;
 				sum = 0;
@@ -64,11 +66,14 @@ int main(){
 
 	//Display the array
 	for(i = 0; i < x; i++){
+		
 		printf("Row %d", i +1);
+		
 		for(j = 0; j < y; j++){
 			printf(" | %.3f ", *(myArray + i * y + j));
 			total += *(myArray + i * y + j);
 		}
+		
 		printf("| Row total value : %.3f\n\n", total);
 		total = 0.0;
 	}
