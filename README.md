@@ -14,6 +14,7 @@
   * [mult64bitX86_32.c](#mult64bitx86_32c)
   * [mult64bitX86_32.s](#mult64bitx86_32s)
   * [numSetBitsFloat.c](#numsetbitsfloatc)
+  * [randNumArray.c](#randnumarrayc)
   * [stringReverse.c](#stringreversec)
   
 # Sample work @ George Washington University (using C/Assembly/CUDA/C++/GO)
@@ -85,6 +86,10 @@ Assembly code for mult64bitX86_32.c. This code was generating using the GNU Comp
 ### numSetBitsFloat.c
 
 Count the set of bits in a floating point number. E.g. the number of 1's in a given binary number.
+
+### randNumArray.c
+
+Create a program that takes two command line arguments that corresponds to the dimensions (rows and columns) of a 2D array of doubles. Allocate memory to create the array and assign random values to its elements so that the sum of the elements in each row is equal to 1.
 
 ### stringReverse.c
 
