@@ -1,6 +1,7 @@
 //Author: Steven Williams
-//CSCI 6011
-//Mid term problem 3
+//Based on two coordinates of a rectangle (on a graph), use the x and y values to calculate the area. 
+//Area = width * length --- (y2 - y1) * (x2 - x1)
+
 #include<stdio.h>
 
 //X and y coordinates for each point
