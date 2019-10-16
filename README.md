@@ -15,6 +15,7 @@
   * [mult64bitX86_32.s](#mult64bitx86_32s)
   * [numSetBitsFloat.c](#numsetbitsfloatc)
   * [randNumArray.c](#randnumarrayc)
+  * [rectCoord.c](#rectcoordc)
   * [stringReverse.c](#stringreversec)
   
 # Sample work @ George Washington University (using C/Assembly/CUDA/C++/GO)
@@ -90,6 +91,10 @@ Count the set of bits in a floating point number. E.g. the number of 1's in a gi
 ### randNumArray.c
 
 Create a program that takes two command line arguments that corresponds to the dimensions (rows and columns) of a 2D array of doubles. Allocate memory to create the array and assign random values to its elements so that the sum of the elements in each row is equal to 1.
+
+### rectCoord.c
+
+Calculate the area based on two coordinates of a rectangle (on a graph). Use the x and y values to calculate the area. E.g. Area = Width * Length -> (y2 - y1) * (x2 - x1)
 
 ### stringReverse.c
 
