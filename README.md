@@ -16,6 +16,7 @@
   * [numSetBitsFloat.c](#numsetbitsfloatc)
   * [randNumArray.c](#randnumarrayc)
   * [rectCoord.c](#rectcoordc)
+  * [reverseEngAssemb.c](#reverseengassembc)
   * [stringReverse.c](#stringreversec)
   
 # Sample work @ George Washington University (using C/Assembly/CUDA/C++/GO)
@@ -95,6 +96,31 @@ Create a program that takes two command line arguments that corresponds to the d
 ### rectCoord.c
 
 Calculate the area based on two coordinates of a rectangle (on a graph). Use the x and y values to calculate the area. E.g. Area = Width * Length -> (y2 - y1) * (x2 - x1)
+
+### reverseEngAssemb.c
+
+Based on the following assembly code, write the corresponding C source code. 
+
+	pushl %ebp              
+	movl %esp, %ebp        
+	subl $24, %esp          
+	movl $10, -4(%ebp)      
+	movl $20, -8(%ebp)      
+	movl -8(%ebp), %eax     
+	movl %eax, 4(%esp)     
+	movl -4(%ebp), %eax     
+	movl %eax, (%esp)       
+	movl $LC0, (%esp)       
+	call _printf            
+	movl $0, %eax           
+
+	_add:
+	pushl %ebp              
+	movl %esp, %ebp         
+	movl 12(%ebp), %eax    
+	addl 8(%ebp), %eax      
+	popl %ebp               
+	ret  
 
 ### stringReverse.c
 
