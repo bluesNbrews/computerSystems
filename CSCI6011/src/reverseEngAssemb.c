@@ -1,6 +1,4 @@
 //Author: Steven Williams
-//CSCI 6011
-//Practice Set 5 Problem 3
 //Create C source code from the assembly code below.
 
 #include<stdio.h>
