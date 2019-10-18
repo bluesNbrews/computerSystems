@@ -17,6 +17,7 @@
   * [randNumArray.c](#randnumarrayc)
   * [rectCoord.c](#rectcoordc)
   * [reverseEngAssemb.c](#reverseengassembc)
+  * [sizeCircLinkedList.c](#sizecirclinkedlistc)
   * [stringReverse.c](#stringreversec)
   
 # Sample work @ George Washington University (using C/Assembly/CUDA/C++/GO)
@@ -122,10 +123,10 @@ Based on the following assembly code, write the corresponding C source code.
 	popl %ebp               
 	ret  
 
+### sizeCircLinkedList.c
+
+Define the size of a circular linked list (no NULL end pointer at end node, points back to the HEAD).
+
 ### stringReverse.c
 
 Write a program to reverse the order of a string.
-
-
-
-
