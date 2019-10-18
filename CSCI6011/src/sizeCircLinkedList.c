@@ -1,7 +1,5 @@
 //Author: Steven Williams
-//CSCI 6011
-//Final Exam Problem 3
-//Define the size of a circular linked list
+//Define the size of a circular linked list (no NULL end pointer at end node, points back to the HEAD)
 
 #include<stdio.h>
 #include<stdlib.h>
