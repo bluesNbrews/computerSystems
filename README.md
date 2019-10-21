@@ -19,6 +19,7 @@
   * [reverseEngAssemb.c](#reverseengassembc)
   * [sizeCircLinkedList.c](#sizecirclinkedlistc)
   * [stringReverse.c](#stringreversec)
+  * [structArrSort.c](#structarrsortc)
   
 # Sample work @ George Washington University (using C/Assembly/CUDA/C++/GO)
   * Computer Systems (6011)
@@ -130,3 +131,8 @@ Define the size of a circular linked list (no NULL end pointer at end node, poin
 ### stringReverse.c
 
 Write a program to reverse the order of a string.
+
+### structArrSort.c
+
+For 20 students, sort by grade and display students with a grade higher than the average grade of all students. Worst case runtime is O(n^2).
+
