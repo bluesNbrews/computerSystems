@@ -1,6 +1,6 @@
 //Author: Steven Williams
-//CSCI 6011
-//Mid term problem 2 
+//For 20 students, sort by grade and display students with a grade higher than the average grade of all students. Worst case runtime is O(n^2).
+
 #include<stdio.h>
 #include<string.h>
 
@@ -51,7 +51,7 @@ void display_students(struct student stuArray[]){
 	
 	for(int i = 0; i < 20; i++){
 		if(stuArray[i].grade > avg){
-			printf("%s received a grade of %d, which is hihger than the average of %d.\n", stuArray[i].name, stuArray[i].grade, avg);
+			printf("%s received a grade of %d, which is higher than the average of %d.\n", stuArray[i].name, stuArray[i].grade, avg);
 			printf("\n");
 		}
 	}
