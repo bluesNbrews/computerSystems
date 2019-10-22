@@ -1,6 +1,4 @@
 //Author: Steven Williams
-//CSCI 6011
-//Practice Set 5 Problem 2
 //Compute the size (in bytes) of a given file.
 
 #include<stdio.h>
