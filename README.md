@@ -20,6 +20,7 @@
   * [sizeCircLinkedList.c](#sizecirclinkedlistc)
   * [stringReverse.c](#stringreversec)
   * [structArrSort.c](#structarrsortc)
+  * [textFileSize.c](#textfilesizec)
   
 # Sample work @ George Washington University (using C/Assembly/CUDA/C++/GO)
   * Computer Systems (6011)
@@ -136,3 +137,6 @@ Write a program to reverse the order of a string.
 
 For 20 students, sort by grade and display students with a grade higher than the average grade of all students. Worst case runtime is O(n^2).
 
+### textFileSize.c
+
+Compute the size (in bytes) of a given text file.
