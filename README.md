@@ -21,6 +21,7 @@
   * [stringReverse.c](#stringreversec)
   * [structArrSort.c](#structarrsortc)
   * [textFileSize.c](#textfilesizec)
+  * [trailZeroBin.c](#trailzerobinc)
   
 # Sample work @ George Washington University (using C/Assembly/CUDA/C++/GO)
   * Computer Systems (6011)
@@ -140,3 +141,7 @@ For 20 students, sort by grade and display students with a grade higher than the
 ### textFileSize.c
 
 Compute the size (in bytes) of a given text file.
+
+### trailZeroBin.c
+
+Count the number of trailing zeros (binary) for a given number (decimal) by using the bitwise operator. E.g. 8 = 1000 (3 trailing zeros).
