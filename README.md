@@ -22,6 +22,7 @@
   * [structArrSort.c](#structarrsortc)
   * [textFileSize.c](#textfilesizec)
   * [trailZeroBin.c](#trailzerobinc)
+  * [twosComp.c](#twoscompc)
   
 # Sample work @ George Washington University (using C/Assembly/CUDA/C++/GO)
   * Computer Systems (6011)
@@ -145,3 +146,7 @@ Compute the size (in bytes) of a given text file.
 ### trailZeroBin.c
 
 Count the number of trailing zeros (binary) for a given number (decimal) by using the bitwise operator. E.g. 8 = 1000 (3 trailing zeros).
+
+### twosComp.c
+
+Convert a byte or two nibbles from user input to the one's complement and the two's complement for that input.
