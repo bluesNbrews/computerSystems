@@ -1,7 +1,5 @@
 //Author: Steven Williams
-//CSCI 6011
-//Write a C program to enter a binary number from the user and to 
-//find 2's complement of the binary number.
+//Write a C program to enter a byte or two nibbles from the user and to find the one's complement and the two's complement.
 //First step is to transform x into a bit vector in the form of
 //[0..01..1], find two's complement of a binary string.
 
@@ -14,7 +12,7 @@
 
 Two's Complement:
 
-Add 1 to One's complement
+Add 1 to one's complement
 
 1) Start with least significant bit, if 0, then add 1
 2) If least significant is 1 then add 1 and carry 1 to the next least significant bit.
@@ -80,7 +78,7 @@ int main(){
 	char binNumTwosComp[8];
 
 	//Get binary number from user
-	printf("Enter the binary number: \n");
+	printf("Enter a byte or two nibbles (e.g. 00001000): \n");
 	for(i = 0; i < sizeof(binNum); i++){
 		scanf("%c", &binNum[i]);
 	}
