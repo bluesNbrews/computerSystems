@@ -23,6 +23,7 @@
   * [textFileSize.c](#textfilesizec)
   * [trailZeroBin.c](#trailzerobinc)
   * [twosComp.c](#twoscompc)
+  * [validateIP.c](#validateipc)
   
 # Sample work @ George Washington University (using C/Assembly/CUDA/C++/GO)
   * Computer Systems (6011)
@@ -150,3 +151,7 @@ Count the number of trailing zeros (binary) for a given number (decimal) by usin
 ### twosComp.c
 
 Convert a byte or two nibbles from user input to the one's complement and the two's complement for that input.
+
+### validateIP.c
+
+Check the validity of user defined IP address.
