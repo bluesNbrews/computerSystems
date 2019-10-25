@@ -1,7 +1,5 @@
 //Author: Steven Williams
-//CSCI 6011
-//Final Exam Problem 1
-//Create a program that checks the validity of user defined IP address
+//Create a program that checks the validity of user defined IP address.
 
 #include<stdio.h>
 #include<string.h>
@@ -80,8 +78,6 @@ int main(){
 	
 	//Variables for user input
 	char ipAddress[20];
-	char hdSerial[5]; 
-	char ipClass[1];
 
 	//Results of functions to check valid digits and the IP, respectively
 	int result;
@@ -89,12 +85,6 @@ int main(){
 	//Get user input
 	printf("Enter an IP address (ex: 200.32.2.5): \n");
 	scanf("%s", ipAddress);
-
-	printf("Please enter the hard drive serial number (5 digits/letters).\n");
-	scanf("%s", hdSerial);
-
-	printf("Please enter the class for the IP address.\n");
-	scanf("%s", ipClass);
 
 	//Check the digits and octets
 	result = checkIP(ipAddress);
