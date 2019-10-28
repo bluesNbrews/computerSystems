@@ -24,6 +24,7 @@
   * [trailZeroBin.c](#trailzerobinc)
   * [twosComp.c](#twoscompc)
   * [validateIP.c](#validateipc)
+  * [varMemRep.c](#varmemrepc)
   
 # Sample work @ George Washington University (using C/Assembly/CUDA/C++/GO)
   * Computer Systems (6011)
@@ -155,3 +156,7 @@ Convert a byte or two nibbles from user input to the one's complement and the tw
 ### validateIP.c
 
 Check the validity of user defined IP address.
+
+### varMemRep.c
+
+Show the memory representation of the C variables such as int, float, and pointer.
