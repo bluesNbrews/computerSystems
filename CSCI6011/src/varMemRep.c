@@ -1,6 +1,4 @@
 //Author: Steven Williams
-//CSCI 6011
-//Practice Set 5 Problem 1
 //Show the memory representation of the C variables such as int, float, and pointer.
 //Using the address and the size of the variable, typecast the address as a character. 
 
