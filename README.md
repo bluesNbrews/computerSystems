@@ -25,6 +25,8 @@
   * [twosComp.c](#twoscompc)
   * [validateIP.c](#validateipc)
   * [varMemRep.c](#varmemrepc)
+- [CSCI 6221 (Software Paradigms)](#csci-6221-software-paradigms)
+  * [effStackHeap.c](#effstackheapc)
   
 # Sample work @ George Washington University (using C/Assembly/CUDA/C++/GO)
   * Computer Systems (6011)
@@ -160,3 +162,9 @@ Check the validity of user defined IP address.
 ### varMemRep.c
 
 Show the memory representation of the C variables such as int, float, and pointer.
+
+## CSCI 6221 (Software Paradigms)
+
+### effStackHeap.c
+
+Measure and compare the time it takes to create an array on both the stack and heap.
