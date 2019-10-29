@@ -1,5 +1,5 @@
-/* Author: Steven Williams
-** Class: CSCI 6221 Midterm Problem
+/* 
+** Author: Steven Williams
 ** Purpose: Measure and compare the time it takes to create an array on both the stack and heap
 */
 
