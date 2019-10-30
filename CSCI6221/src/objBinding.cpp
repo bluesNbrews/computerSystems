@@ -1,5 +1,5 @@
 /*  Author: Mark Williams
-**  Class: CSCI 6221
+**  Create a program that will test both static and dynamic object binding using another object.
 **  Assignment: Opt-OOP
 */
 
