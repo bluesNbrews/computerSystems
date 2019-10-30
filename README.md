@@ -27,6 +27,7 @@
   * [varMemRep.c](#varmemrepc)
 - [CSCI 6221 (Software Paradigms)](#csci-6221-software-paradigms)
   * [effStackHeap.c](#effstackheapc)
+  * [objBinding.c](#objbindingc)
   
 # Sample work @ George Washington University (using C/Assembly/CUDA/C++/GO)
   * Computer Systems (6011)
@@ -168,3 +169,7 @@ Show the memory representation of the C variables such as int, float, and pointe
 ### effStackHeap.c
 
 Measure and compare the time it takes to create an array on both the stack and heap.
+
+### objBinding.c
+
+Create a program that will test both static and dynamic object binding using another object.
