@@ -1,3 +1,9 @@
+# Sample work @ George Washington University (using C/Assembly/CUDA/C++/GO)
+  * Computer Systems (6011)
+  * Software Paradigms (6221)
+  * Computer Architecture (6461)
+  * Design & Analysis of Algorithms (6212) 
+
 # Table of Contents
 
 - [CSCI 6011(Computer Systems - simple C programs)](#csci-6011-computer-systems---simple-c-programs)
@@ -27,13 +33,8 @@
   * [varMemRep.c](#varmemrepc)
 - [CSCI 6221 (Software Paradigms)](#csci-6221-software-paradigms)
   * [effStackHeap.c](#effstackheapc)
-  * [objBinding.c](#objbindingc)
-  
-# Sample work @ George Washington University (using C/Assembly/CUDA/C++/GO)
-  * Computer Systems (6011)
-  * Computer Architecture (6461)
-  * Software Paradigms (6221)
-  * Design & Analysis of Algorithms (6212) 
+  * [objBinding.cpp](#objbindingcpp)
+  * [singleton.go](#singletongo)
 
 ## CSCI 6011 (Computer Systems - simple C programs)
 
@@ -170,6 +171,10 @@ Show the memory representation of the C variables such as int, float, and pointe
 
 Measure and compare the time it takes to create an array on both the stack and heap.
 
-### objBinding.c
+### objBinding.cpp
 
 Create a program that will test both static and dynamic object binding using another object.
+
+### singleton.go
+
+Implement the best practice of "Double Checked Locking" for thread safety and minimal locking. 
