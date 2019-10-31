@@ -1,5 +1,4 @@
-/*  Author: Team 2- Steven Williams & Fadi Dagher
-**  Class: CSCI 6221
+/*  Author: Steven Williams & Fadi Dagher
 **  Purpose: Implement the best practice of "Double Checked Locking" for thread safety and minimal locking. 
 */
 
