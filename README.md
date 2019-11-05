@@ -187,7 +187,7 @@ Implement the best practice of "Double Checked Locking" for thread safety and mi
 
 ### trapRainWater.cpp
 
-Given an elevation map (with non-negative integers), compute how much water the terrain map will trap. The map is shown below 
+Given an elevation map (with non-negative integers), compute how much water the terrain map will trap. The map is shown below. This algorithm runs in O(n) time.  
 
 ![trapRainWater](https://github.com/bluesNbrews/computerSystems/blob/master/img/trapRainWater.png)
 
