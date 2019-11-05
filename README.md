@@ -35,6 +35,8 @@
   * [effStackHeap.c](#effstackheapc)
   * [objBinding.cpp](#objbindingcpp)
   * [singleton.go](#singletongo)
+- [CSCI 6461 (Computer Architecture)](#csci-6461-computer-architecture)
+- [CSCI 6212 (Design & Analysis of Algorithms)](#csci-6212-design-&-analysis-of-algorithms)
 
 ## CSCI 6011 (Computer Systems - simple C programs)
 
