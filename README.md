@@ -37,6 +37,7 @@
   * [singleton.go](#singletongo)
 - [CSCI 6461 (Computer Architecture)](#csci-6461-computer-architecture)
 - [CSCI 6212 (Design and Analysis of Algorithms)](#csci-6212-design-and-analysis-of-algorithms)
+  * [trapRainWater.cpp](#traprainwatercpp)
 
 ## CSCI 6011 (Computer Systems - simple C programs)
 
