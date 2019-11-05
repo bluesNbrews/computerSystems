@@ -2,7 +2,7 @@
   * Computer Systems (6011)
   * Software Paradigms (6221)
   * Computer Architecture (6461)
-  * Design & Analysis of Algorithms (6212) 
+  * Design and Analysis of Algorithms (6212) 
 
 # Table of Contents
 
@@ -36,7 +36,7 @@
   * [objBinding.cpp](#objbindingcpp)
   * [singleton.go](#singletongo)
 - [CSCI 6461 (Computer Architecture)](#csci-6461-computer-architecture)
-- [CSCI 6212 (Design & Analysis of Algorithms)](#csci-6212-design-&-analysis-of-algorithms)
+- [CSCI 6212 (Design and Analysis of Algorithms)](#csci-6212-design-and-analysis-of-algorithms)
 
 ## CSCI 6011 (Computer Systems - simple C programs)
 
@@ -180,3 +180,14 @@ Create a program that will test both static and dynamic object binding using ano
 ### singleton.go
 
 Implement the best practice of "Double Checked Locking" for thread safety and minimal locking. 
+
+## CSCI 6461 (Computer Architecture)
+
+## CSCI 6212 (Design and Analysis of Algorithms)
+
+### trapRainWater.cpp
+
+Given an elevation map (with non-negative integers), compute how much water the terrain map will trap. The map is shown below 
+
+![trapRainWater](https://github.com/bluesNbrews/computerSystems/blob/master/img/trapRainWater.png)
+
