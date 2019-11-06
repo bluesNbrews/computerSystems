@@ -1,7 +1,7 @@
 /*
 **Author: Mark Williams
-**Class: CSCI 6461
-**Project 4: CUDA
+** Simple matrix multiplication using host code (CPU). 
+** Matrix size is 16*16, values are all 32 and the output is 256.
 */
 
 #include <stdio.h>
