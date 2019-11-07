@@ -36,6 +36,7 @@
   * [objBinding.cpp](#objbindingcpp)
   * [singleton.go](#singletongo)
 - [CSCI 6461 (Computer Architecture)](#csci-6461-computer-architecture)
+  * [multiply.c](#multiplyc)
 - [CSCI 6212 (Design and Analysis of Algorithms)](#csci-6212-design-and-analysis-of-algorithms)
   * [trapRainWater.cpp](#traprainwatercpp)
 
@@ -183,6 +184,10 @@ Create a program that will test both static and dynamic object binding using ano
 Implement the best practice of "Double Checked Locking" for thread safety and minimal locking. 
 
 ## CSCI 6461 (Computer Architecture)
+
+### multiply.c
+
+Simple matrix multiplication using host code (CPU). Matrix size is 16x16, values are all 32 and the output is 256.
 
 ## CSCI 6212 (Design and Analysis of Algorithms)
 
