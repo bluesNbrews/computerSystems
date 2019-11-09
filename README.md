@@ -36,7 +36,10 @@
   * [objBinding.cpp](#objbindingcpp)
   * [singleton.go](#singletongo)
 - [CSCI 6461 (Computer Architecture)](#csci-6461-computer-architecture)
+  * [add.cpp](#addcpp)
+  * [add.cu](#addcu)
   * [multiply.c](#multiplyc)
+  * [multiply.cu](#multiplycu)
 - [CSCI 6212 (Design and Analysis of Algorithms)](#csci-6212-design-and-analysis-of-algorithms)
   * [trapRainWater.cpp](#traprainwatercpp)
 
@@ -185,9 +188,19 @@ Implement the best practice of "Double Checked Locking" for thread safety and mi
 
 ## CSCI 6461 (Computer Architecture)
 
+### add.cpp
+
+### add.cu
+
 ### multiply.c
 
-Simple matrix multiplication using host code (CPU). Matrix size is 16x16, values are all 32 and the output is 256.
+Simple matrix multiplication using host code (CPU). The matrix size is 16x16, the values are all 32 and the output is 256.
+
+### multiply.cu
+
+Matrix multiplication using device code (NVIDIA GPU). I used an Elastic Cloud Compute (EC2) instance of an Amazon Machine ImageMatrix that had a NVIDIA GPU toolkit. Again, the size is 16x16, the values are all 32 and the output is 256.
+
+![multiplyCUDA](https://github.com/bluesNbrews/computerSystems/blob/master/img/multiplyCUDA.png)
 
 ## CSCI 6212 (Design and Analysis of Algorithms)
 
