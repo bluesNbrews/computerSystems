@@ -1,3 +1,9 @@
+/*
+**Author: Mark Williams
+** Simple program that adds the elements of two arrays with a million elements each. 
+** This program uses host code (CPU). 
+*/
+
 #include <iostream>
 #include <math.h>
 

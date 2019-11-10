@@ -1,3 +1,9 @@
+/*
+**Author: Mark Williams
+** Simple program that adds the elements of two arrays with a million elements each. 
+** This program uses device code (NVIDIA GPU). 
+*/
+
 #include <iostream>
 #include <math.h>
 
