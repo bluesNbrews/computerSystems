@@ -190,7 +190,11 @@ Implement the best practice of "Double Checked Locking" for thread safety and mi
 
 ### add.cpp
 
+Simple program that adds the elements of two arrays with a million elements each. This program uses host code (CPU). 
+
 ### add.cu
+
+Simple program that adds the elements of two arrays with a million elements each. This program uses device code (NVIDIA GPU).
 
 ### multiply.c
 
