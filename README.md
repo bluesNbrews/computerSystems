@@ -41,8 +41,9 @@
   * [multiply.c](#multiplyc)
   * [multiply.cu](#multiplycu)
 - [CSCI 6212 (Design and Analysis of Algorithms)](#csci-6212-design-and-analysis-of-algorithms)
+  * [DFS.c](#dfsc)
   * [trapRainWater.cpp](#traprainwatercpp)
-
+  * [Queue.h](#queueh)
 ## CSCI 6011 (Computer Systems - simple C programs)
 
 ### arrayDiff.c 
@@ -208,9 +209,17 @@ Matrix multiplication using device code (NVIDIA GPU). I used an Elastic Cloud Co
 
 ## CSCI 6212 (Design and Analysis of Algorithms)
 
+### DFS.c
+
+Implement a Depth First Search using recursion.
+
 ### trapRainWater.cpp
 
 Given an elevation map (with non-negative integers), compute how much water the terrain map will trap. The map is shown below. This algorithm runs in O(n) time.  
 
 ![trapRainWater](https://github.com/bluesNbrews/computerSystems/blob/master/img/trapRainWater.png)
+
+### Queue.h
+
+Header file for queue data structure (node structure, enqueue function and dequeue function).
 
