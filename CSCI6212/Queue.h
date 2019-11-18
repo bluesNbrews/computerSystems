@@ -1,4 +1,3 @@
-#indef Queue_h
 #define Queue_h
 #include <stdlib.h>
 //Header file for queue data structure. Provides enqueue and dequeue functions for a queue.
@@ -27,7 +26,7 @@ void enqueue(int x){
 	}
 }
 
-void dequeue(){
+int dequeue(){
 	int x = -1;
 	struct Node* t;
 
@@ -46,5 +45,3 @@ void dequeue(){
 int isEmpty(){
 	return front == NULL;
 }
-
-#endif
