@@ -41,6 +41,7 @@
   * [multiply.c](#multiplyc)
   * [multiply.cu](#multiplycu)
 - [CSCI 6212 (Design and Analysis of Algorithms)](#csci-6212-design-and-analysis-of-algorithms)
+  * [BFS.c](#bfsc)
   * [DFS.c](#dfsc)
   * [trapRainWater.cpp](#traprainwatercpp)
   * [Queue.h](#queueh)
@@ -209,9 +210,13 @@ Matrix multiplication using device code (NVIDIA GPU). I used an Elastic Cloud Co
 
 ## CSCI 6212 (Design and Analysis of Algorithms)
 
+### BFS.c
+
+Implement a Breadth First Search. The time complexity is O(n + m), where n is the number of vertices and m is the number of edges. The space complexity is O(n^2), the data structures include an adjacency matrix. 
+
 ### DFS.c
 
-Implement a Depth First Search using recursion.
+Implement a Depth First Search using recursion. The time complexity is O(n + m), where n is the number of vertices and m is the number of edges. The space complexity is O(n^2), the data structures include an adjacency matrix. 
 
 ### trapRainWater.cpp
 
