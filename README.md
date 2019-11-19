@@ -212,11 +212,11 @@ Matrix multiplication using device code (NVIDIA GPU). I used an Elastic Cloud Co
 
 ### BFS.c
 
-Implement a Breadth First Search. The time complexity is O(n + m), where n is the number of vertices and m is the number of edges. The space complexity is O(n^2), the data structures include an adjacency matrix. 
+Implement a Breadth First Search. The complexity is O(n^2), due to an adjacency matrix. 
 
 ### DFS.c
 
-Implement a Depth First Search using recursion. The time complexity is O(n + m), where n is the number of vertices and m is the number of edges. The space complexity is O(n^2), the data structures include an adjacency matrix. 
+Implement a Depth First Search using recursion. The complexity is O(n^2), due to an adjacency matrix. 
 
 ### trapRainWater.cpp
 
