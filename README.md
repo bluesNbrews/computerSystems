@@ -43,8 +43,10 @@
 - [CSCI 6212 (Design and Analysis of Algorithms)](#csci-6212-design-and-analysis-of-algorithms)
   * [BFS.c](#bfsc)
   * [DFS.c](#dfsc)
-  * [trapRainWater.cpp](#traprainwatercpp)
+  * [prims.cpp](#primscpp)
   * [Queue.h](#queueh)
+  * [trapRainWater.cpp](#traprainwatercpp)
+  
 ## CSCI 6011 (Computer Systems - simple C programs)
 
 ### arrayDiff.c 
@@ -218,13 +220,17 @@ Implement a Breadth First Search. The complexity is O(n^2), due to an adjacency 
 
 Implement a Depth First Search using recursion. The complexity is O(n^2), due to an adjacency matrix. 
 
+### prims.cpp
+
+A greedy algorithm that finds a minimum spanning tree for a weighted undirected graph. The time complexity is O(n^2). If a min heap is used the time complexity will be O(nlogn).
+
+### Queue.h
+
+Header file for queue data structure (node structure, enqueue function and dequeue function).
+
 ### trapRainWater.cpp
 
 Given an elevation map (with non-negative integers), compute how much water the terrain map will trap. The map is shown below. This algorithm runs in O(n) time.  
 
 ![trapRainWater](https://github.com/bluesNbrews/computerSystems/blob/master/img/trapRainWater.png)
-
-### Queue.h
-
-Header file for queue data structure (node structure, enqueue function and dequeue function).
 
