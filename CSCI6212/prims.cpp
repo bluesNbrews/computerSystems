@@ -16,7 +16,9 @@ int cost[][8] =
 				{I,5,I,I,I,20,I,I},
 				{I,I,10,I,14,18,I,I}};
 
+//closest array will keep track of connected vertices
 int closest[8]={I,I,I,I,I,I,I,I};
+//mst array will keep track as we populate the minimum spanning tree
 int mst[2][6];
 
 int main(){
@@ -35,6 +37,7 @@ int main(){
 
 	*/
 
+	//Get the initial minimum cost edge
 	for(i = 1; i <= n; i++){
 		for(j = i; j <= n; j++){
 			if(cost[i][j] < min){
@@ -43,6 +46,21 @@ int main(){
 				v = j;
 			}
 		}
+	}
+
+	//Initial step to populate the minimum spanning tree
+	mst[0][0] = u;
+	mst[1][0] = v;
+
+	//Set to visited by changing infinity value to 0
+	near[u] = near[v] = 0;
+
+	//Check for closest vertex and update as necessary
+	for(i = 1; i <= n; i++){
+		if(cost[i][u] < cost[i][v])
+			near[i] = u;
+		else
+			near[i] = v;
 	}
 
 }
