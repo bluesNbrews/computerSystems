@@ -57,10 +57,37 @@ int main(){
 
 	//Check for closest vertex and update as necessary
 	for(i = 1; i <= n; i++){
-		if(cost[i][u] < cost[i][v])
-			near[i] = u;
-		else
-			near[i] = v;
+		if(closest[i] != 0){
+			if(cost[i][u] < cost[i][v])
+				near[i] = u;
+			else
+				near[i] = v;
+		}
+	}
+
+	//Find smallest value for remaining edges by updating the closest vertex data structure and
+	//using it to determine which edge to put in the minimum spanning tree data structure
+	for(i = 1; i < n - 1; i++){
+		min = I;
+		for(j = 1; j < n; j++){
+			if(closest[j] != 0 && cost[j][closest[j]] < min){
+				k = j;
+				min = cost[j][closest[j]];
+			}
+		}
+		mst[0][i] = k;
+		mst[1][i] = closest[k];
+		closest[k] = 0;
+
+		for(j = 1; j <= n; j++){
+			if(closest[j] != 0 && cost[j][k] < cost[j][closest[j]])
+				closest[j] = k;
+		}
+	}
+
+	//Print output of minimum spanning tree
+	for(i = 0; i < n - 1; i++){
+		cout << "(" << mst[0][i] << "," << mst[1][i] << ")" << endl;
 	}
 
 }
