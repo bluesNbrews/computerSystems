@@ -53,15 +53,15 @@ int main(){
 	mst[1][0] = v;
 
 	//Set to visited by changing infinity value to 0
-	near[u] = near[v] = 0;
+	closest[u] = closest[v] = 0;
 
 	//Check for closest vertex and update as necessary
 	for(i = 1; i <= n; i++){
 		if(closest[i] != 0){
 			if(cost[i][u] < cost[i][v])
-				near[i] = u;
+				closest[i] = u;
 			else
-				near[i] = v;
+				closest[i] = v;
 		}
 	}
 
@@ -69,7 +69,7 @@ int main(){
 	//using it to determine which edge to put in the minimum spanning tree data structure
 	for(i = 1; i < n - 1; i++){
 		min = I;
-		for(j = 1; j < n; j++){
+		for(j = 1; j <= n; j++){
 			if(closest[j] != 0 && cost[j][closest[j]] < min){
 				k = j;
 				min = cost[j][closest[j]];
