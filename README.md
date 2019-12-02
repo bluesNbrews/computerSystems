@@ -43,6 +43,7 @@
 - [CSCI 6212 (Design and Analysis of Algorithms)](#csci-6212-design-and-analysis-of-algorithms)
   * [BFS.c](#bfsc)
   * [DFS.c](#dfsc)
+  * [kruskals.c](#kruskalsc)
   * [prims.cpp](#primscpp)
   * [Queue.h](#queueh)
   * [trapRainWater.cpp](#traprainwatercpp)
@@ -220,9 +221,13 @@ Implement a Breadth First Search. The complexity is O(n^2), due to an adjacency 
 
 Implement a Depth First Search using recursion. The complexity is O(n^2), due to an adjacency matrix. 
 
+### kruskals.c
+
+A greedy algorithm that finds a minimum spanning tree (MST) for a weighted undirected graph. The algorithm will take the smallest value edge and repeat to build the MST with careful attention not to create a cycle. The time complexity is O(n^2). If a min heap is used the time complexity can be O(nlogn).
+
 ### prims.cpp
 
-A greedy algorithm that finds a minimum spanning tree for a weighted undirected graph. The time complexity is O(n^2). If a min heap is used the time complexity will be O(nlogn).
+A greedy algorithm that finds a minimum spanning tree (MST) for a weighted undirected graph. The algorithm will find the smallest value edge and continue to build the MST with the next smallest edge that is connected to the vertices from the previous edge (repeat until complete). The time complexity is O(n^2). If a min heap is used the time complexity can be O(nlogn).
 
 ### Queue.h
 
